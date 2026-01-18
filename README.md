@@ -211,16 +211,6 @@ Base URL: `/api`
 Authorization: Bearer <JWT_TOKEN>
 ```
 
-#  ER Diagram – MERN Blog Application
-
-This ER Diagram represents the **database design** of the MERN Blog App, focusing on users, blogs, roles, and notifications.
-
-##  ER Diagram 
-
-<img src="docs/blog.drawio.svg" width="700" height="500">
-
----
-
 ##  Entities & Attributes
 
 ### 👤 User

@@ -43,7 +43,7 @@ export default function Login() {
       toast.success(data.message || "Login successful!");
       
       // 👈 INTEGRATE WITH AUTHCONTEXT
-      login(user);  // Set user state & token globally
+      login(data.token, data.user);  // Set user state & token globally
       
       // Role-based redirect
       if (data.user.role === 'writer') {

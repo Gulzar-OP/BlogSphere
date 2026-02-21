@@ -31,7 +31,7 @@ export default function MyProfile() {
   const [saveLoading, setSaveLoading] = useState(false);
   const navigate = useNavigate();
   const fileInputRef = useRef(null);
-  const API_URL = import.meta.env.VITE_API_URL;
+  // const API_URL = import.meta.env.VITE_API_URL;
   // Fetch user profile with proper error handling
   const fetchProfile = async () => {
     try {

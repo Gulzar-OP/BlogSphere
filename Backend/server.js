@@ -37,7 +37,7 @@ app.use(helmet());
 
 /* ================= CORS ================= */
 const allowedOrigins = [
-  "https://blog-sphere-one-kohl.vercel.app/",
+  "https://blog-sphere-zeta-three.vercel.app",
   "http://localhost:5173",
   "http://localhost:5174",
 ];

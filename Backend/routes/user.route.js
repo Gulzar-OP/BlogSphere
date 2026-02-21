@@ -17,7 +17,7 @@ const router = express.Router();
 router.post('/register', register);
 router.post('/login', login);
 router.post('/logout', isAuthenticated, logout);
-router.post('/allAdmins',allAdmins);
+router.post('/allAdmins', isAuthenticated, allAdmins);
 router.get('/my-profile', isAuthenticated, myProfile);
 router.get('/getWriter', getWriter);
 router.get('/getAllPostsByWriter/:id',getAllPostsByWriter)

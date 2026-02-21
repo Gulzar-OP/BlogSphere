@@ -157,6 +157,7 @@ export default function Navbar() {
       const res = await axios.get(`${API_URL}/api/users/my-profile`, {
         withCredentials: true,
       });
+      console.log("Profile fetch success:", res.data);
       setUser(res.data);
       setIsLoggedIn(true);
       fetchNotifications(); // ✅ Fetch notifications on login

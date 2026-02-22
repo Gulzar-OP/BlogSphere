@@ -49,7 +49,7 @@ export default function Login() {
       if (data.user.role === 'writer') {
         navigate("/admin-blog");
       } else {
-        navigate("/");
+        navigate("/my-profile");
       }
       
       // Clear form
